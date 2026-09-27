@@ -204,7 +204,13 @@ const КЛИЕНТ = {
   // ─── НАШИ С ТОБОЙ ЛЮБИМЫЕ МЕСТА ───────────────
   // фото — своё фото места (media/places/...) или ссылка на карту/сайт заведения
   // ⚠️ клиент не присылал список мест — уточните, если хотите добавить
-  места: [],
+  места: [
+    { название: 'Burger King', фото: 'https://www.gobopro.ru/wp-content/uploads/2025/09/651d5cab1c0c82f2471c8e7f_PXMG2iaVCzY.jpg', ссылка: 'https://2gis.kz/aktobe/firm/70000001032346120/57.182247%2C50.285014' },
+    { название: 'X Dance Lab', фото: 'https://sun1-56.vkuserphoto.ru/s/v1/ig2/gM5Fb1xQUm2wwpeQGCYbJFlmoSd-0PUjYMOecbfjGJ3e8JVuvuGcC2adWbY5Pr1t0uPtmPO6IIdJVQeeDlCC_AUm.jpg?quality=95&crop=151,187,786,786&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&cs=240x240', ссылка: 'https://2gis.kz/aktobe/firm/70000001093558022' },
+    { название: 'La Mia Pasta', фото: 'https://i.pinimg.com/140x140_RS/91/95/b3/9195b326e997730d1578a0ab8a5e5dd5.jpg', ссылка: 'https://2gis.kz/aktobe/firm/70000001079114473' },
+    { название: 'Origummy.kz', фото: 'https://i.taplink.st/a/b/a/7/1/bc0f0f.jpg?4', ссылка: 'https://2gis.kz/aktobe/firm/70000001063439236' },
+    { название: 'I\'M', фото: 'https://yt3.googleusercontent.com/lXAW9ed6Lvdpzz6M2_eVdILRj_nYFetpTKC7-M4y0BUJcpYKMGWliFU0H-fWzZRGNEPoQTPtkg=s900-c-k-c0x00ffffff-no-rj', ссылка: 'https://2gis.kz/aktobe/firm/70000001034446196' },
+  ],
 
 
   // ─── СОВМЕСТИМОСТЬ (в модалке "Подробнее") ────
